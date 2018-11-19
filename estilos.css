@@ -87,12 +87,15 @@ body {
     #lateral {
       /* Le damos un ancho razonable a la barra, en px o %, 
        * o si no, el navegador intentará ajustarlo al contenido */
-       width:300px;  /* prueba a quitarlo */
+       min-width:200px;  /* prueba a quitarlo */
+    }
+
+    #principal {
+        width: auto;
     }
     
     #logomovil {
       width:150px;
-      
     }
     
    #textocabecera {
