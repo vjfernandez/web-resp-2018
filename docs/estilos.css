@@ -75,6 +75,10 @@ body {
     color: var(--color4);
   } 
 
+  nav#menulateral a.activo {
+    border-right:5px solid var(--color5);
+  }
+
 
 /* Una media query para pantallas superiores a 800px */
 @media screen and (min-width: 800px) {
@@ -90,8 +94,9 @@ body {
        min-width:200px;  /* prueba a quitarlo */
     }
 
-    #principal {
-        width: auto;
+
+    #principal, #donde, #contacto {
+      width: 100%;
     }
     
     #logomovil {
